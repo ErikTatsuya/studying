@@ -8,13 +8,20 @@ authors = [
 readme = "README.md"
 requires-python = "^3.9"
 dependencies = [
-    "fastapi[standard] (>=0.128.0,<0.129.0)"
+    "fastapi[standard] (>=0.128.0,<0.129.0)",
+    "taskipy (>=1.14.1,<2.0.0)",
+    "tortoise-orm[asyncpg] (>=0.25.3,<0.26.0)",
+    "shell (>=1.0.1,<2.0.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+dev = "poetry run fastapi dev dev.py"
+prod = "uvicorn src.api.application:app --host 0.0.0.0 --port 8000 --reload"
 
 [dependency-groups]
 dev = [
