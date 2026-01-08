@@ -1,0 +1,1 @@
+source /home/erik/.cache/pypoetry/virtualenvs/solar-api-jlATFMih-py3.13/bin/activate
