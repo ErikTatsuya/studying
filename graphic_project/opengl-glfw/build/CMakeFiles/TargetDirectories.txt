@@ -1,0 +1,4 @@
+/home/erik/Projetos/studying/graphic_project/opengl-glfw/build/CMakeFiles/glad.dir
+/home/erik/Projetos/studying/graphic_project/opengl-glfw/build/CMakeFiles/opengl_app.dir
+/home/erik/Projetos/studying/graphic_project/opengl-glfw/build/CMakeFiles/edit_cache.dir
+/home/erik/Projetos/studying/graphic_project/opengl-glfw/build/CMakeFiles/rebuild_cache.dir
