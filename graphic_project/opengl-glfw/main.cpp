@@ -39,7 +39,10 @@ int main() {
     // O contexto está associado à janela.
     // Sem isso glClear, shaders e buffers não funcionam.
 
+
     // verifica se o processo deu certo
+
+    // carrega os ponteiros das funções modernas do openGL
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
         std::cerr << "Falha ao iniciar o GLAD\n";
         return -1;
