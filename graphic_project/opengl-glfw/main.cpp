@@ -86,16 +86,16 @@ int main() {
     // aqui vai o VBO e VAO (vertex buffer object e vertex array object)
     unsigned int VBO, VAO;
 
-    // 1️⃣ Cria VAO
+    // 1️ Cria VAO
     glGenVertexArrays(1, &VAO);
     glBindVertexArray(VAO);
 
-    // 2️⃣ Cria VBO e envia os dados
+    // 2️ Cria VBO e envia os dados
     glGenBuffers(1, &VBO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(triangle_vertex), triangle_vertex, GL_STATIC_DRAW);
 
-    // 3️⃣ Configura o layout do vértice (location = 0 no shader)
+    // 3️ Configura o layout do vértice (location = 0 no shader)
     glVertexAttribPointer(
         0,              // location no shader
         3,              // 3 floats por vértice (x, y, z)
@@ -106,7 +106,7 @@ int main() {
     );
     glEnableVertexAttribArray(0);
 
-    // 4️⃣ Desbind por segurança
+    // 4️ Desbind por segurança
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
