@@ -71,16 +71,16 @@ int main() {
 
     /*
                  X        Y        Z
-    vertex 1  [0 - 1]  [0 - 1]  [0 - 1]
-    vertex 2  [0 - 1]  [0 - 1]  [0 - 1]
-    vertex 3  [0 - 1]  [0 - 1]  [0 - 1]
+    vertex 1  [-1 - 1]  [-1 - 1]  [-1 - 1]
+    vertex 2  [-1 - 1]  [-1 - 1]  [-1 - 1]
+    vertex 3  [-1 - 1]  [-1 - 1]  [-1 - 1]
     
     triângulos são 2D então todos os eixos z devem ficar no 0
     */
     float triangle_vertex[] = {
-        0.5f, 1.0f, 0.0f,   // v1: topo do triângulo, meio do eixo X
-        1.0f, 0.0f, 0.0f,   // v2: canto inferior direito
-        0.0f, 0.0f, 0.0f    // v3: canto inferior esquerdo
+        0.0f, 0.5f, 0.0f,      // v1: topo do triângulo, meio do eixo X
+        0.5f, -0.5f, -1.0f,     // v2: canto inferior direito
+        -0.5f, -0.5f, -1.0f     // v3: canto inferior esquerdo
     };
 
     // aqui vai o VBO e VAO (vertex buffer object e vertex array object)

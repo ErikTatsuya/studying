@@ -1,3 +1,3 @@
 # This file is used internally by FFMPEG.
-file 'file:/home/erik/Projetos/studying/manim/manimations/media/videos/main/480p15/partial_movie_files/Sin_and_Cos/1584795214_1512563980_223132457.mp4'
+file 'file:/home/erik/Projetos/studying/manim/manimations/media/videos/main/480p15/partial_movie_files/Sin_and_Cos/1584795214_3230363106_223132457.mp4'
 file 'file:/home/erik/Projetos/studying/manim/manimations/media/videos/main/480p15/partial_movie_files/Sin_and_Cos/4072820271_1754310298_3601482946.mp4'

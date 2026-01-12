@@ -16,5 +16,5 @@ class Sin_and_Cos(Scene):
         cosseno = axes.plot(lambda x: np.cos(x), color=RED, stroke_width=8)
 
         # Mostrar curvas
-        self.play(Create(seno), Create(cosseno))
+        self.play(Create(seno), Create(cosseno), run_time=4)
         self.wait()
