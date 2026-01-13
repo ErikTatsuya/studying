@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "stfu sybau kys",
+		"name": "AddonJS",
+		"uuid": "00000000-0000-0000-0000-000000000001",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"description": "Script principal",
+			"type": "scripting",
+			"uuid": "00000000-0000-0000-0000-000000000002",
+			"version": [1, 0, 0],
+			"entry": "scripts/main.js"
+		}
+	]
+}
